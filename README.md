@@ -1,4 +1,4 @@
-# elk-docker
+# ELK-Docker
 Dockerized ELK stack 
 
 # Elasticsearch
