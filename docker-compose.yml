@@ -4,8 +4,8 @@ elasticsearch:
     - "9200:9200"
     - "9300:9300"
   volumes:
-    ./config:/usr/share/elasticsearch/config
-    ./esdata:/usr/share/elasticsearch/data  
+    ./elasticsearch/config:/usr/share/elasticsearch/config
+    ./elasticsearch/data:/usr/share/elasticsearch/data  
 
 logstash:
   image: logstash:latest
