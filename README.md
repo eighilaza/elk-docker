@@ -2,7 +2,7 @@
 Dockerized ELK stack for Stackato
 
 #Prerequisites
-- Have Docker Engine https://www.docker.com/docker-engine and Docker Compose https://www.docker.com/docker-compose on the machine hosting the ELK stack.
+- Install Docker Engine https://www.docker.com/docker-engine and Docker Compose https://www.docker.com/docker-compose on the machine hosting the ELK stack.
 
 - Setup a Stackato log drain on your Stackato cluster using the following command
 	$ kato log drain add [NAME] -p  apptail -f '{{.app_name}} : {{.text}}' > all-apps udp://[IP_ADDRESS_OF_ELK_HOST]:5500
