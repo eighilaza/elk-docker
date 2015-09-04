@@ -12,7 +12,7 @@ $ kato log drain add [NAME] -p  apptail -f '{{.app_name}} : {{.text}}' > all-app
 ##Quickstart
 On the machine hosting the ELK stack enter the follwing commands:
 ```
-$ git clone 
+$ git clone https://github.com/eighilaza/elk-docker.git
 $ cd elk-docker
 $ docker-compose up
 ```
