@@ -17,7 +17,7 @@ $ cd elk-docker
 $ docker-compose up
 ```
 
-Open your browser at [IP_ADDRESS_OF_ELK_HOST]:8484
+Open your browser at *[IP_ADDRESS_OF_ELK_HOST]:8484* and use the default index *logstash-**.
 
 ##Elasticsearch
 https://hub.docker.com/r/library/elasticsearch/
